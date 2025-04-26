@@ -1,5 +1,5 @@
 {
-    "name": "ML-Rust Dev Environment",  
+    "name": "Vibe-Code Dev Environment",  
     "build": {
         "dockerfile": "Dockerfile",
         "context": "." 
