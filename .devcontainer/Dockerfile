@@ -17,7 +17,9 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # Upgrade pip first, then install common data science and ML packages
 RUN python -m pip install --upgrade pip && \ 
     pip install numpy scipy pandas scikit-learn matplotlib seaborn \ 
-    jupyterlab notebook # \ 
+    jupyterlab notebook \
+    openai \
+    dwave-ocean-sdk
     # torch torchvision torchaudio \ 
     # tensorflow==2.13.*  keras \ 
     # deap 
