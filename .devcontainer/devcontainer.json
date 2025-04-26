@@ -1,0 +1,25 @@
+{
+    "name": "ML-Rust Dev Environment",  
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "." 
+    },
+    // Use Dev Container Features to easily add tools
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {} 
+    },
+    "settings": {
+        // Optional VS Code settings, e.g., set default Jupyter root or Python path
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
+    },
+    "extensions": [
+        "ms-python.python",           // Python support (language server, etc.)
+        "ms-toolsai.jupyter",         // Jupyter Notebook support in VS Code
+        "rust-lang.rust-analyzer",    // Rust language server for code completion
+        "ms-vscode.cpptools"          // C/C++ tools (useful for native extensions)
+    ],
+    "forwardPorts": [
+        8888
+    ],
+    "postCreateCommand": "echo 'Codespace setup complete!'"
+}
