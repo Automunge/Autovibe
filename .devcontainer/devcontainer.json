@@ -4,6 +4,10 @@
         "dockerfile": "Dockerfile",
         "context": "." 
     },
+    "hostRequirements": {
+      "cpus": 4,
+      "memory": "8gb"
+    }
     // Use Dev Container Features to easily add tools
     "features": {
         "ghcr.io/devcontainers/features/rust:1": {} 
