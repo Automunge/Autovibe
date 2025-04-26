@@ -8,6 +8,9 @@
     "features": {
         "ghcr.io/devcontainers/features/rust:1": {} 
     },
+    "containerEnv": {
+        "OPENAI_API_KEY": "${{secrets.OPENAI_KEY}}"
+    },
     "settings": {
         // Optional VS Code settings, e.g., set default Jupyter root or Python path
         "jupyter.notebookFileRoot": "${workspaceFolder}"
