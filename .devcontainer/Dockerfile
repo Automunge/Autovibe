@@ -17,10 +17,10 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # Upgrade pip first, then install common data science and ML packages
 RUN python -m pip install --upgrade pip && \ 
     pip install numpy scipy pandas scikit-learn matplotlib seaborn \ 
-    jupyterlab notebook \ 
-    torch torchvision torchaudio \ 
-    tensorflow==2.13.*  keras \ 
-    deap 
+    jupyterlab notebook # \ 
+    # torch torchvision torchaudio \ 
+    # tensorflow==2.13.*  keras \ 
+    # deap 
 
 # ** (Optional) Rust: Additional Setup **  
 # [Rust is installed via devcontainer Feature in this config, so no manual install here]
