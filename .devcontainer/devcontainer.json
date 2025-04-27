@@ -7,11 +7,11 @@
     "hostRequirements": {
       "cpus": 4,
       "memory": "8gb"
-    }
-    // Use Dev Container Features to easily add tools
-    "features": {
-        "ghcr.io/devcontainers/features/rust:1": {} 
     },
+    // Use Dev Container Features to easily add tools
+    //"features": {
+    //    "ghcr.io/devcontainers/features/rust:1": {} 
+    //},
     "containerEnv": {
         "OPENAI_API_KEY": "${{secrets.OPENAI_KEY}}"
     },
