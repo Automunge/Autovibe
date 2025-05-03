@@ -1,11 +1,11 @@
-#this file to include any configuration settings or parameters
-#that can be specified by a user
-#for defining in what manner the repo contents
-#will be loaded into a model used for vibe coding
+//this file to include any configuration settings or parameters
+//that can be specified by a user
+//for defining in what manner the repo contents
+//will be loaded into a model used for vibe coding
 
-#examples of potwntial settings could include:
-#- the scale of LLM window tokens allocated for repo comtext
-#- conventions for how the repo files are summarized in the summaries.txt, such as description length or format
-#- specifying any form of data encodings used for the context like chunking, chunk sizes, etc
-#- selecting which models may be applied for the loading operation
-#- etc
+//examples of potwntial settings could include:
+//- the scale of LLM window tokens allocated for repo comtext
+//- conventions for how the repo files are summarized in the summaries.txt, such as description length or format
+//- specifying any form of data encodings used for the context like chunking, chunk sizes, etc
+//- selecting which models may be applied for the loading operation
+//- etc
