@@ -1,0 +1,8 @@
+#this file will serve as a set
+#of natural language desvriptioms
+#correspondong to each file im the repository
+#organizednin a manner resmblikg the folder structure
+#and to be repopulated with each git commit
+#for each file in which edits were recorded
+#this summaries.txt file is intemded as resource for LLM context
+#as routed by the load.py process
