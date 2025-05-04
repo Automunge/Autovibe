@@ -5,4 +5,4 @@
 #the intent is that the context loading will be refreshed
 #each time that the repo is updated by a git commit
 
-print('load.py complete')
+print('load.py complete.')
