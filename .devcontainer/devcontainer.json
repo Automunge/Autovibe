@@ -28,6 +28,6 @@
     "forwardPorts": [
         8888
     ],
-    "postStartCommand": "python3 LLM_context/load.py", //loads repository6 context into LLM with each init or restart
+    "postStartCommand": "python3 LLM_context/load.py", //loads repository context into LLM with each init or restart
     "postCreateCommand": "echo 'Codespace setup complete!'"
 }
