@@ -28,6 +28,6 @@
     "forwardPorts": [
         8888
     ],
-    "postStartCommand": "python3 LLM_context/load.py", //loads repository context into LLM via load.py with each init or restart
-    "postCreateCommand": "echo '#!/bin/bash\\npython3 LLM_context/load.py' > .git/hooks/post-commit && chmod +x .git/hooks/post-commit && echo 'Codespace setup complete!'", //loads repository context into LLM via load.py with each git commit originating from the codespace
+    "postStartCommand": "python3 LLM_context/load.py", //loads repository context into LLM via load.py with each init or restart (experimental)
+    "postCreateCommand": "echo '#!/bin/bash\\npython3 LLM_context/load.py' > .git/hooks/post-commit && chmod +x .git/hooks/post-commit && echo 'Codespace setup complete!'", //loads repository context into LLM via load.py with each git commit originating from the codespace (experimental)
 }
